@@ -42,10 +42,14 @@ public class Producto {
         this.precio = precio;
     }
 
-    // Método para mostrar información del producto
-    public void mostrarinformacion(){
-        System.out.println("ID: " + id + " Nombre: " + nombre + " Cantidad: " + cantidad + " Precio: $" + precio);
+    // mostrar información del producto
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", cantidad=" + cantidad +
+                ", precio=" + precio +
+                '}';
     }
-
-
 }

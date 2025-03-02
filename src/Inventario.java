@@ -36,7 +36,7 @@ public class Inventario {
         System.out.println("Inventario actual:");
         // Recorre la lista e imprime la información de cada producto
         for (Producto producto : productos){
-            producto.mostrarinformacion();
+            System.out.println(producto);
         }
     }
 
